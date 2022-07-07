@@ -9,23 +9,26 @@ header {
 	justify-content: space-between;
 	align-items: center;
 
-	background-color: red;
+	background-color: greenyellow;
 	font-size: 30px;
-	color: white;
+	color: black;
 }
 
 main {
 	display: grid;
 	padding-top: 60px;
 	justify-content: center;
+	margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
 }
 
 footer {
 	position: absolute;
 	left: 0px;
-  bottom: 0px;
+  	bottom: 0px;
 	width: 100%;
-	background-color: red;
+	background-color: greenyellow;
 	text-align: center;
 	font-size: 20px;
 }
@@ -51,9 +54,14 @@ a {
 #newsfeed {
 	max-width: 600px;
 	min-width: 600px;
+	
 }
 
 .feedImage {
 	max-width: 150px;
 	max-height: 150px;
+}
+
+body{
+	background-color: lightblue;
 }
