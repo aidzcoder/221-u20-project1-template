@@ -24,7 +24,7 @@ main {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	left: 0px;
   	bottom: 0px;
 	width: 100%;
@@ -65,3 +65,20 @@ a {
 body{
 	background-color: lightblue;
 }
+
+#button0{
+	height:75px;
+	width: 150px;
+	float:right;
+}
+
+#button1{
+	height:75px;
+	width: 150px;
+}
+
+#button2{
+	height:75px;
+	width: 150px;
+}
+
